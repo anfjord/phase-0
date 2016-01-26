@@ -70,3 +70,9 @@ Write what each does
 -help  displays the list of commands that are built into the shell
 
 #1.4 Forking and Cloning Reflection
+If you were going to write instructions for a new person on how to create a new repo, fork a repo, and clone a repo, what would they be? Why would you fork a repository as opposed to create a new one?
+
+Logg into Github. Click on the plus sign in top right hand corner. You will have the choice of creating a new repo. In order to fork a repo, go into that repos url and press fork. Do you want to clone it on to your computer? Then, copy the url of the repo and find a good place to store on your computer. Use the command line and write "git clone" and then url that you have copied.
+A new repo is empty. You can fill it with your own content from scratch or you can fill it with content that someone else has created and work from that version. In order to work on someone elses content you need to fork (or make a copy of) their version.
+What struggles did you have setting up git and GitHub? What did you learn in the process.
+I had no troubles setting up git or Github. It was pretty straight forward. I had never worked in Github before. It's a great tool. Smart way of organizing team work!
