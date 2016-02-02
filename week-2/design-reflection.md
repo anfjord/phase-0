@@ -1,4 +1,4 @@
-![Sitemap](/imgs/site-map.jpg)
+<a href="http://tinypic.com?ref=2wdbjic" target="_blank"><img src="http://i67.tinypic.com/2wdbjic.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
 
 #What are the 6 Phases of Web Design?
 Information Gathering
