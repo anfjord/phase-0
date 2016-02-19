@@ -35,4 +35,7 @@ Type rspec spec-file-name.rb
 # then type rspec file-name_spec.rb
 
 #What was confusing about this material? What made sense?
-it was hard to understand Rspec and the error messages. The rest made sense. 
+it was hard to understand Rspec and the error messages. The rest made sense.
+
+https://github.com/anfjord/phase-0/blob/master/week-4/math/my_solution.rb
+https://github.com/anfjord/phase-0/blob/master/week-4/address/my_solution.rb
