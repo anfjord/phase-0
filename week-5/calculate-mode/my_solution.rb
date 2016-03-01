@@ -82,4 +82,4 @@ Yes
 #Our initial code led to an array method that worked in some cases but not all. We rewrote the code using hashes to store the frequency values to account for cases of no modes or multiple modes.
 
 #What methods did you use to iterate through the content? Did you find any good ones when you were refactoring? Were they difficult to implement?
-We used each_key` and the array methods `.sort`, `.reverse`, and `.first`.
+We used   each_key` and the array methods `.sort`, `.reverse`, and `.first`.
