@@ -27,15 +27,17 @@ Ruby methods are used to bundle one or more repeatable statements into a single 
 
 #What is the difference between a local variable and a method?
 A local variable is a variable with the purpose of storing a value within for example a method. A method is a set of expressions that returns a value.
+
 #How do you run a ruby program from the command linetyping irb in the console
 Be in the directory where the file is and then run it in the terminal using ruby <filename>.rb.
+
 #How do you run an RSpec file from the command line?
 Be in the the directory where the  rspec file is.
 Type rspec spec-file-name.rb
-# then type rspec file-name_spec.rb
+then type rspec file-name_spec.rb
 
 #What was confusing about this material? What made sense?
-it was hard to understand Rspec and the error messages. The rest made sense.
+It was a little bit difficult to understand how Rspec really works and the error messages. The rest made sense.
 
 https://github.com/anfjord/phase-0/blob/master/week-4/math/my_solution.rb
 https://github.com/anfjord/phase-0/blob/master/week-4/address/my_solution.rb
