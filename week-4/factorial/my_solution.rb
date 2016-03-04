@@ -1,9 +1,18 @@
 # Factorial
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge [by myself, with: Fram Lam].
 
 
-# Your Solution Below
+
+# make sure all pseudocode is commented out!
+# Input: a non-negative integer
+# Output: the product of the all the values from 1 up to the value of the factorial.
+# Steps to solve the problem.
+# set the factorial 0 to return 1 (if) else start with 1
+# do a while loop through the numbers over 1
+# multiply numbers and decrement by 1
+
+
 # Your Solution Below
 def factorial((number))
 if number == 0
