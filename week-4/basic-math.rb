@@ -1,5 +1,5 @@
 # Solution Below
-num1 = 27
+num1 = 12ß
 num2 = 5
 sum = num1 + num2
 difference = num1 - num2
