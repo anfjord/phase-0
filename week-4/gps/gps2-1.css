@@ -1,7 +1,25 @@
-html {
-  background-color: #ff0000;
+body {
+  font-family: courier;
 }
-p {
-	font-size: 22px
-	background-color: #00FF00;
+
+header {
+  background-color: pink;
+  text-align: center;
+}
+.column-1{
+  background-color: green;
+  float: left;
+  width: 48%;
+  margin-left: 2%;
+}
+.column-2{
+  background-color: yellow;
+  float: right;
+  width: 48%;
+  margin-right: 2%;
+}
+footer {
+  background-color: blue;
+  clear: both;
+  text-align: center;
 }
