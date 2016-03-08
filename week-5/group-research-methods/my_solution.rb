@@ -1,6 +1,6 @@
 # Research Methods
 
-# I spent [] hours on this challenge.
+# I spent [1] hours on this challenge.
 
 i_want_pets = ["I", "want", 3, "pets", "but", "only", "have", 2]
 my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, "Bogart" => 4, "Poly" => 4, "Annabelle" => 0}
@@ -43,7 +43,7 @@ each element in the object and collect each element and put it in an array.
 Map is sometimes called collect. The main difference from using each is that
 map returns the transformed collection of elements.
 #Share any tricks you used to find and decipher the Ruby Docs
-Not really a trick, just read the material and try to keep to clean solutions.  
+Not really a trick, just read the material and try to keep to clean solutions.
 
 
 
