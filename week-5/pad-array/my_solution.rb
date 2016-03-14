@@ -73,4 +73,4 @@ end
 #We probably could have choosen a bit more descriptive variables. It's definently something to work on.
 #What is the difference between destructive and non-destructive methods in your own words?
 #Using the  destructive method your original array is replaced  by the new array that you creating and you can no longer access it.
-With the non-destructive method you get a new array and you still keep and hvae access to the original array.
+#With the non-destructive method you get a new array and you still keep and hvae access to the original array.
