@@ -76,11 +76,22 @@ print_list(my_shoppinglist)
 update_quantity(my_shoppinglist, "Ice Cream" , 1)
 print_list(my_shoppinglist)
 
-#Refactoring 
+#Refactoring
 
 def grocery_list(items)
   hash = Hash.new
   items.split(' ').each { |item|
     hash[item] = 0 }
   hash
+end
+
+=begin
+#Reflecting
+#What did you learn about pseudocode from working on this challenge?
+Always very good to go through the code thorough and keep it to plain english, not using
+#What are the tradeoffs of using Arrays and Hashes for this challenge?
+What does a method return?
+#What kind of things can you pass into methods as arguments?
+#How can you pass information between methods?
+#What concepts were solidified in this challenge, and what concepts are still confusing?
 end
