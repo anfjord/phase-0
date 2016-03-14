@@ -13,13 +13,14 @@
 # What are the steps needed to solve the problem?
 # Make the number_to a string
 # split the number into individual elements within a list
-# Find the index of where commas need to be inserted for any integer
+# Find the index (4) and pattern of where commas need to be inserted for any integer (length)
+# Increment according to pattern (>3)
 # Return the number into one individual element.
 
 
 # Initial Solution
 
-def separate_comma(integer)
+def separate_comma(number)
   number_string = number.to_s
   number_array = number_string.split(//)
   characters = number_array.length
@@ -33,12 +34,12 @@ end
 
 
 # 2. Refactored Solution
-# Didn't have enough time to find a good refactored solution.
+# Didn't have enough time to find a better refactored solution.
 
 # 3. Reflection
 #
 #What was your process for breaking the problem down? What different approaches did you consider?
-#I tried several different loops. It was hard to find the right structue.
+#I tried several different loops. It was hard to find the right structure. I was thinking of using the .insert method or .times.
 #Was your pseudocode effective in helping you build a successful initial solution?
 # A little bit. I could have made a more descriptive psudocode, I was jumping back and forth between the code and the psuedocode  because I tried out different things and wasn't sure which approach to take.
 
