@@ -2,7 +2,7 @@
 
 # I worked on this challenge [by myself, with: ]
 
-# I spent [] hours on this challenge.
+# I spent [1] hours on this challenge.
 
 # Complete each step below according to the challenge directions and
 # include it in this file. Also make sure everything that isn't code
@@ -27,14 +27,6 @@
 
 
 # 1. Initial Solution
-
-
-def mode(input)
-input.sort_by {|a,b| b.count <=> a.count}
-return input.first
-end
- Will succeed for cases where there's one mode. Will fail on double, or many modes.
-
 
 def mode(array)
 number_counters = Hash.new(0)
@@ -75,11 +67,11 @@ mode(["who", "what", "where", "who", "who"])
 
 # 4. Reflection
 #Which data structure did you and your pair decide to implement and why?
-We used a Hash to store our input array as keys, and values to represent the frequency of each key.
+#Used a Hash to store our input array as keys, and values to represent the frequency of each key.
 #Were you more successful breaking this problem down into implementable pseudocode than the last with a pair?
-Yes
+#Yes
 #What issues/successes did you run into when translating your pseudocode to code?
 #Our initial code led to an array method that worked in some cases but not all. We rewrote the code using hashes to store the frequency values to account for cases of no modes or multiple modes.
 
 #What methods did you use to iterate through the content? Did you find any good ones when you were refactoring? Were they difficult to implement?
-We used   each_key` and the array methods `.sort`, `.reverse`, and `.first`.
+# We used   each_key` and the array methods `.sort`, `.reverse`, and `.first`.

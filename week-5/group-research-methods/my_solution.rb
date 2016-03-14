@@ -48,12 +48,6 @@ end
 
 
 
-
-#
-#
-
-
-# Person 3
 # Person 3
 def my_array_sorting_method(source)
   source.sort_by {|x| x.to_s } #used the sort method
