@@ -38,12 +38,12 @@ end
 # Identify and describe the Ruby method(s) you implemented.
 #Teach your accountability group how to use the methods.
 #I used the enumerable .map
-Map will take an object and run a block of code for
-each element in the object and collect each element and put it in an array.
-Map is sometimes called collect. The main difference from using each is that
-map returns the transformed collection of elements.
+#Map will take an object and run a block of code for
+#each element in the object and collect each element and put it in an array.
+#Map is sometimes called collect. The main difference from using each is that
+#map returns the transformed collection of elements.
 #Share any tricks you used to find and decipher the Ruby Docs
-Not really a trick, just read the material and try to keep to clean solutions.
+#Not really a trick, just read the material and try to keep to clean solutions.
 
 
 
@@ -54,18 +54,19 @@ Not really a trick, just read the material and try to keep to clean solutions.
 
 
 # Person 3
+# Person 3
 def my_array_sorting_method(source)
-  source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.sort_by {|x| x.to_s } #used the sort method
 end
 
 def my_hash_sorting_method(source)
-   source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+   new_hash = source.sort_by { |x,y| y }
 end
 
 # Identify and describe the Ruby method(s) you implemented.
-#
-#
-#
+#used the sort method to sort the source and I turned the values into string which they were numbers
+#for the second one. I made a new has and I sorted the has the way it was suppose to store it on th code block
+
 
 
 # Person 4
