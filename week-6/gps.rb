@@ -97,10 +97,10 @@ p serving_size_calc("cookie", 10)
 =begin
  Reflection
 What did you learn about making code readable by working on this challenge?
-- Use good varible names and not to complicate things.
+- To use good varible names and not to complicate things.
 Did you learn any new methods? What did you learn about them?
 - We used include?, I have used it before but it's good to solidify that method. Also learn about value_at and that it returns an array.
 What did you learn about accessing data in hashes?
-- include? is a good method.
+- I think include? is a good method.
 What concepts were solidified when working through this challenge?
-- generally it was good to go through the "bad" code and try to understand every piece of it. 
+- Generally it was good to go through the "bad" code and try to understand every piece of it. Reading other peoples code is very useful for learning. 
