@@ -33,7 +33,7 @@ function sum(array) {
   for (var i = 0; i < array.length; i++) {
     total += array[i];
   }
-  return total;
+console.log(total);
 };
 
 
@@ -60,8 +60,7 @@ function mean (array) {
   for (var i = 0; i < array.length; i++) {
     total += array[i];
   }
-  return total / array.length;
-  console.log(average);
+  console.log total / array.length;
 }
 
 
@@ -84,7 +83,8 @@ median(oddLengthArray)
 median(evenLengthArray)
 median(scrambleArray)
 
-// User story: As a user I want to find the median value of a set of numbers.
+// User story: As a user I want to find sort a set of numbers from smallest to largest
+//and find the middle value.
 
 
 // Refactored solution
@@ -99,4 +99,5 @@ function median(array) {
     return array[middle_number];
   }
 }
-console.log(median([10, 20, 30, 40, 50, 60, 70]))
+console.log(median([1,2,3,4,5]))
+console.log(median([1,2,3,4,5,6]))
