@@ -44,10 +44,10 @@ separateComma(12345678);
 // Reflection
 
 //What was it like to approach the problem from the perspective of JavaScript? Did you approach the problem differently?
-// -
+// - We used the same logic and we found methods in JS that worked in pretty much the same way. We had to work a little bit with the syntax to mae it work.
 //What did you learn about iterating over arrays in JavaScript?
-// -
+// - You don't iterate over arrays the way you do in Ruby, you use loops. We used a for loop.
 //What was different about solving this problem in JavaScript?
-// -
+// - Mainly the way to do an  iteration and the syntax
 //What built-in methods did you find to incorporate in your refactored solution?
-// -
+// - toString(), split(), reverse() and join()
