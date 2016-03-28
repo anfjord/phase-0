@@ -6,7 +6,7 @@
 # EXPLANATION OF require_relative
 #
 #
-=begin
+=b
 require_relative 'state_data'
 
 class VirusPredictor
@@ -86,13 +86,3 @@ alaska.virus_effects
 
 #=======================================================================
 # Reflection Section
-=end
-#REFACTOR 2
-def all_states(list)
-	  list.each do |key, value|
-	    VirusPredictor.new(key, value[:population_density], value[:population]).virus_effects
-	  end
-	end
-	
-
-	all_states(STATE_DATA)
