@@ -2,7 +2,7 @@
 #One-to-One Relationship
 
 
-![table image](https://github.com/anfjord/Phase-0/blob/master/week-8/imgs/one_one.png)
+![table image](https://github.com/anfjord/Phase-0/blob/master/week-8/imgs/One_one.png)
 
 
 
