@@ -185,7 +185,7 @@ __________________________________________
 
 
  //What concepts were solidified in the process of working through this challenge?
-// - I teration with loops.
+// - Iteration with loops.
 
 
 
