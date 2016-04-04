@@ -21,5 +21,5 @@ A primary key is a unique identifier for a set  of data. A foreign key is  data 
 
 ##How can you select information out of a SQL database? What are some general guidelines for that?
 
-SQL commands are written in all caps and commands end with a semicolon.
-To select data use SELECT * FROM a table. 
+SQL commands are written in all caps. 
+For example, to select data from a table you use the command  SELECT * FROM
