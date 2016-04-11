@@ -1,6 +1,4 @@
-// U3.W9:JQuery
-​
-​
+
 // I worked on this challenge [by myself, with: ].
 // This challenge took me [#] hours.
 ​
@@ -33,6 +31,7 @@ h1Element.css({
   'visibility': 'visible',
 });
 ​
+​
 mascotHeading.html('Fiery Skippers')
 ​
 //RELEASE 4: Event Listener
@@ -40,11 +39,10 @@ mascotHeading.html('Fiery Skippers')
 ​
 mascotImg.on('mouseover', function(e){
   e.preventDefault()
-    $(this).attr('src', 'http://www.naba.org/chapters/nabanj/images/final/5011_Fiery_Skipper_MN.jpg'),
-​
+    $(this).attr('src', 'http://www.naba.org/chapters/nabanj/images/final/5011_Fiery_Skipper_MN.jpg')
 })
 ​
-mascotImg.on('mouseleave', function(){
+mascotImg.mouseleave('mouseleave', function(){
     $(this).attr('src', 'dbc_logo.png')
   })
 ​
@@ -52,15 +50,36 @@ mascotImg.on('mouseleave', function(){
 //RELEASE 5: Experiment on your own
 ​
 mascotImg.mouseover(function(){
-    $(this).animate({
-      height: '-= 110px',
-      width: '-= 110px',
-      //'border': '2px solid black'
+      $(this).css("border", "0px solid red").animate({
+      height: '+=300px',
+      width: '+=300px',
+      borderWidth: '2px'
     })
-})
+    })
+​
+mascotImg.mouseleave(function(){
+      $(this).animate({
+      height: '37px',
+      width: '220px',
+      borderWidth: '0px'
+    })
+    })
+​
+​
 ​
 ​
 ​
 })
 ​
   // end of the document.ready function: do not remove or write DOM manipulation below this.
+// What is jQuery?
+// JQuery is a JS library of code.
+
+// What does jQuery do for you?
+// JQuery  makes it easier to use elements in the DOM(less code).
+
+// What did you learn about the DOM while working on this challenge?
+// accessing the Document Object Model (DOM)  in a smarter way
+
+
+  
